@@ -1,4 +1,4 @@
-# Rhythm Knight: A Pixel Art Rhythm-Based Game
+# Rhythm Knight hell: A Pixel Art Rhythm-Based Game
 
 ## Overview
 Welcome to Rhythm Knight, a thrilling adventure where rhythmic interactions are the key to success! In this game, players embark on a journey through visually striking pixel art levels, facing off against a diverse cast of enemies, all while syncing their movements with the beat of the music. With intuitive controls and dynamic animations, Rhythm Knight offers an immersive gaming experience that will keep players engaged for hours.
@@ -33,7 +33,7 @@ Weave a pixel art narrative element that unfolds progressively, adding an engagi
 
 
 ## Feedback and Support
-We welcome any feedback or suggestions to improve Rhythm Knight. If you encounter any issues or need assistance, please contact us at [email@example.com].
+We welcome any feedback or suggestions to improve Rhythm Knight. If you encounter any issues or need assistance, please contact us at [axh.golven@yandex.ru].
 
 ## License
 This game is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/). Feel free to share and adapt the game for non-commercial purposes, provided you give appropriate credit and maintain the same license terms.
