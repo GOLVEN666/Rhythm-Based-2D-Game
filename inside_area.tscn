@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://bl8grrva02o5c"]
+
+[ext_resource type="Texture2D" uid="uid://60wnfu0452fg" path="res://Button_Blue_9Slides_Pressed.png" id="1_yxp8e"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3h0mm"]
+size = Vector2(336, 332)
+
+[node name="Area2D" type="Area2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(1.875, 1.875)
+texture = ExtResource("1_yxp8e")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -1)
+shape = SubResource("RectangleShape2D_3h0mm")
