@@ -1,15 +1,15 @@
 extends Node
 
-var enemy_scene = preload("res://Enemyy.tscn")
-var enemy_scene2 = preload("res://Enemy.tscn")
-var enemy_scene3 = preload("res://Enemyy+.tscn")
-var enemy_scene4 = preload("res://Enemyy++.tscn")
+var enemy_scene = preload("res://Scenes/Enemy.tscn")
+var enemy_scene2 = preload("res://Scenes/Enemy.tscn")
+var enemy_scene3 = preload("res://Scenes/Enemyy+.tscn")
+var enemy_scene4 = preload("res://Scenes/Enemyy++.tscn")
 
 
 var note_list_left = [1]
-var note_list_right = [4]
-var note_list_top = [3]
-var note_list_bottom = [10,12]
+var note_list_right = [2]
+var note_list_top = []
+var note_list_bottom = []
 
 
 func _on_conductor_beat(position):

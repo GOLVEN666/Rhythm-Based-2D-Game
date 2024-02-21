@@ -1,11 +1,11 @@
 [gd_scene load_steps=9 format=3 uid="uid://dvw0vap2m7v1y"]
 
-[ext_resource type="Script" path="res://main.gd" id="1_djxoq"]
-[ext_resource type="Texture2D" uid="uid://hkgcb20oli76" path="res://Tilemap_Flat.png" id="1_ltyar"]
-[ext_resource type="PackedScene" uid="uid://cimra6gt55yis" path="res://main_character.tscn" id="2_jfhrw"]
-[ext_resource type="Script" path="res://main_character.gd" id="4_bmqtw"]
-[ext_resource type="AudioStream" uid="uid://df4ldyafqxoa6" path="res://dodie - You.mp3" id="5_1opli"]
-[ext_resource type="Script" path="res://AudioStreamPlayer.gd" id="6_6kre3"]
+[ext_resource type="Script" path="res://Scripts/main.gd" id="1_djxoq"]
+[ext_resource type="Texture2D" uid="uid://hkgcb20oli76" path="res://Images/Tilemap_Flat.png" id="1_ltyar"]
+[ext_resource type="PackedScene" uid="uid://cimra6gt55yis" path="res://Scenes/main_character.tscn" id="2_jfhrw"]
+[ext_resource type="Script" path="res://Scripts/main_character.gd" id="4_bmqtw"]
+[ext_resource type="AudioStream" uid="uid://df4ldyafqxoa6" path="res://Music/dodie - You.mp3" id="5_1opli"]
+[ext_resource type="Script" path="res://Scripts/AudioStreamPlayer.gd" id="6_6kre3"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ocbni"]
 texture = ExtResource("1_ltyar")

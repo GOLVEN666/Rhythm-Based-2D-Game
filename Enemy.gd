@@ -5,5 +5,3 @@ func _process(_delta):
 func _on_body_entered(body):
 	if(body.name=="CharacterBody2D"):
 		queue_free()
-func _ready():
-	position.x = 1150

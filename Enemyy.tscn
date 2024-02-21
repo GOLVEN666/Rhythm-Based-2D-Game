@@ -395,7 +395,7 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_7m456"]
-size = Vector2(37, 59)
+size = Vector2(50, 50)
 
 [node name="Enemy" type="Area2D"]
 texture_filter = 1

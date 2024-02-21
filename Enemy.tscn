@@ -1,6 +1,6 @@
 [gd_scene load_steps=60 format=3 uid="uid://o5i3tyf5ny0o"]
 
-[ext_resource type="Script" path="res://Area2D.gd" id="1_tgq1j"]
+[ext_resource type="Script" path="res://Enemy.gd" id="1_vlttr"]
 [ext_resource type="Texture2D" uid="uid://fop4vxdkbffn" path="res://Warrior_Red.png" id="2_j4ppm"]
 [ext_resource type="Script" path="res://AnimatedSprite2D2.gd" id="3_ncymh"]
 
@@ -396,12 +396,12 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_7m456"]
-size = Vector2(37, 59)
+size = Vector2(50, 50)
 
 [node name="Enemy" type="Area2D"]
 texture_filter = 1
 scale = Vector2(1.645, 1.645)
-script = ExtResource("1_tgq1j")
+script = ExtResource("1_vlttr")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_v0u8j")
